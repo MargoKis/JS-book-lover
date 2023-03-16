@@ -1,0 +1,122 @@
+.purchase {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 40px;
+  margin-top: 90px;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 12px;
+  color: rgb(134, 51, 93);
+  background-color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  border-radius: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(134, 51, 93);
+}
+
+.boxCart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+
+}
+
+.imgCart {
+  width: 160px;
+  height: 160px;
+}
+
+.empty {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+/*/////////////////////*/
+
+.wrap {
+  margin: 30px;
+}
+
+.purchaseWrap {
+  margin-top: 20px;
+  border: solid 2px rgb(57, 63, 148);
+
+}
+
+.cartWrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 40px;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid blue;
+  border-radius: 5px;
+  align-items: center;
+  padding: 15px;
+  background-color: rgb(211, 193, 244);
+}
+
+.bookImg {
+  width: 100px;
+  height: 140px;
+  border: 1px solid;
+}
+
+.cost {
+  color: rgb(219, 67, 67);
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+
+.count {
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+
+.totalItems {
+  width: 45px;
+  padding: 2px;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: rgb(241, 241, 241);
+}
+
+.removeFromCart {
+  margin-left: 70px;
+  padding: 5px;
+  color: rgb(227, 104, 227);
+  border-radius: 4px;
+}
+
+.totalSum {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .cartItem {
+    display: flex;
+    flex-direction: column;
+  }
+}

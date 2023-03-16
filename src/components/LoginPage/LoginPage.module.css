@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 170px;
+}
+
+.imgAvatar {
+  width: 160px;
+  height: 160px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input,
+label {
+  display: block;
+  width: 200px;
+}
+
+label {
+  color: rgb(134, 51, 93);
+  text-align: center;
+  margin: 20px 3px 2px 2px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+
+.input {
+  padding: 5px;
+  outline: none;
+  border: 2px solid rgb(128, 130, 252);
+}
+
+.userName {
+  margin-top: 10px;
+}
+
+
+::placeholder {
+  color: rgb(111, 111, 126);
+  text-align: center;
+}
+
+
+.button {
+  margin-top: 30px;
+  padding: 6px;
+  width: 215px;
+  font-weight: bold;
+  color: rgb(134, 51, 93);
+  font-weight: bold;
+  border: 2px solid rgb(128, 130, 252);
+}
+
+.button:hover {
+    color: rgb(69, 29, 163);
+    background-color: rgb(158, 102, 204);
+  } 
+
+@media screen and (max-width: 320px) {
+  .imgAvatar {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* .button,
+    label {
+      width: ;
+    }
+    input {
+      width: ;
+    } */
+}
+
+@media (max-width: 1200px) {
+
+  .userName,
+  button {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 990px) {
+
+  .userName,
+  button {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 770px) {
+
+  .userName,
+  button {
+    max-width: none;
+  }
+}

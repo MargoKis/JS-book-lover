@@ -1,0 +1,65 @@
+
+
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  justify-content: space-evenly;
+  grid-gap: 70px;
+  margin: 50px auto;
+  max-width: 1240px;
+  min-height: 100vh;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 5px 5px 5px 4px rgb(128, 130, 252);
+  background-color: rgba(166, 155, 192, 0.705);
+  align-items: center;
+  height: 500px;
+}
+
+.inBlock {
+  align-items: center;
+  justify-content: center;
+
+}
+
+.bookImg {
+  /* width: 70%;
+  height: 80%;  */
+  height: 300px;
+}
+
+.h4,
+.h5 {
+  font-size: 15px;
+}
+
+.priceAndBut {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.cost {
+  color: rgb(219, 67, 67);
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px 10px;
+  rotate: -10deg;
+  margin-right: 40px;
+}
+
+.toCart {
+  height: 40px;
+  width: 90px;
+  color: rgb(97, 57, 192);
+  background-color: rgb(241, 177, 247);
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 30px;
+}
