@@ -18,9 +18,9 @@ const Navbar = ({ size }) => {
             <span>{size}</span>
           </Link>
         </div>
-        <Link to="/" className={item.signOut}>
+        <Link to="/JS-book-lover" className={item.signOut}>
           <button
-            onClick={() => signout(() => navigate("/", { replace: true }))}
+            onClick={() => signout(() => navigate("/JS-book-lover", { replace: true }))}
             className={item.btn}
           >
             {" "}
