@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/JS-book-lover/static/css/main.3230dc61.css",
-    "main.js": "/JS-book-lover/static/js/main.588b920e.js",
+    "main.js": "/JS-book-lover/static/js/main.24c0312e.js",
     "index.html": "/JS-book-lover/index.html",
     "main.3230dc61.css.map": "/JS-book-lover/static/css/main.3230dc61.css.map",
-    "main.588b920e.js.map": "/JS-book-lover/static/js/main.588b920e.js.map"
+    "main.24c0312e.js.map": "/JS-book-lover/static/js/main.24c0312e.js.map"
   },
   "entrypoints": [
     "static/css/main.3230dc61.css",
-    "static/js/main.588b920e.js"
+    "static/js/main.24c0312e.js"
   ]
 }
