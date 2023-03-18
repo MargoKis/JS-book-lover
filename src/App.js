@@ -42,7 +42,7 @@ function App() {
                 }
               />
               
-              <Route path="*" element={<Error404 />} />
+              {/* <Route path="*" element={<Error404 />} /> */}
             </Routes>
           </StoreContextProvider>
         </div>
