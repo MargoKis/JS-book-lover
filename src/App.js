@@ -16,7 +16,7 @@ function App() {
         <div className="App">
           <StoreContextProvider>
             <Routes>
-              <Route path="/JS-book-lover" element={<LoginPage />} />
+              <Route path="/" element={<LoginPage />} />
               <Route
                 path="/books-list"
                 element={
