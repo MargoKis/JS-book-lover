@@ -14,7 +14,7 @@ const Navbar = ({ size }) => {
         <p className={item.bookstore}>JS book lover</p>
         <div className={item.imgCart}>
           <Link to="/cart">
-            <img className={item.imgCart} src="./cart.png" alt="cartcd" />
+            <img className={item.imgCart} src="./cart.png" alt="cart" />
             <span>{size}</span>
           </Link>
         </div>
