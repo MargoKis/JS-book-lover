@@ -20,7 +20,7 @@ const Navbar = ({ size }) => {
         </div>
         <Link to="/" className={item.signOut}>
           <button
-            onClick={() => signout(() => navigate("/JS-book-lover", { replace: true }))}
+            onClick={() => signout(() => navigate("/", { replace: true }))}
             className={item.btn}
           >
             {" "}
