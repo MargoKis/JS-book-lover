@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { useAuth } from "../hoc/useAuth";
 import item from "./Header.module.css";
+import userPhoto from '../../img/user.png';
+import cart from '../../img/cart.png';
 
 const Navbar = ({ size }) => {
   const { signout } = useAuth();
@@ -14,7 +16,7 @@ const Navbar = ({ size }) => {
         <p className={item.bookstore}>JS book lover</p>
         <div className={item.imgCart}>
           <Link to="/cart">
-            <img className={item.imgCart} src="./cart.png" alt="cart" />
+            <img className={item.imgCart} src={cart} alt="cart" />
             <span>{size}</span>
           </Link>
         </div>
@@ -29,7 +31,7 @@ const Navbar = ({ size }) => {
         </Link>
         <div>
           <img
-            src="./user.png"
+            src={userPhoto}
             className={(item.navIcon, item.userProfile)}
             alt="user icon"
           />
